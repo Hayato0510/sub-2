@@ -10,8 +10,8 @@ class AdController extends Controller
     public function os(Request $request) {
         $user_agent =  $request->header('User-Agent');
         if ((strpos($user_agent, 'iPhone') !== false)) {
-            return redirect('https://a-trade.jp/redirect/connect?media=G16531'); //CONNECT - Aトレード
+            return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=17545'); //恋バナナ - fam
         }
-        return redirect('https://a-trade.jp/redirect/connect?media=G16531'); //CONNECT - Aトレード
+        return redirect('https://fam-ad.com/ad/p/r?_site=64801&_article=17545'); //恋バナナ - fam
     }
 }
