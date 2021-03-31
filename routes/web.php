@@ -12,8 +12,8 @@
 */
 // LP獲得用
 Route::get('app', function () {
-    return view('yt.check'); //LP確認用
-    // return view('yt.adult'); //Android獲得用
+    // return view('yt.check'); //LP確認用
+    return view('yt.adult'); //Android獲得用
 });
 
 //OS識別→案件遷移
